@@ -1,0 +1,115 @@
+/* CSS PARA A PÁGINA DE RECEITAS (Bucho) */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fcfcfc; /* Fundo levemente cinza, como na imagem */
+}
+
+/* Fonte especial para o logo */
+.font-cursive {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilo da Navbar */
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.2rem;
+    font-weight: 700;
+    
+}
+
+
+
+/* --- Conteúdo Principal --- */
+
+/* Sidebar (Categorias) */
+.category-list .list-group-item {
+    border: none;
+    padding: 0.75rem 0;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    background-color: transparent;
+}
+
+.category-list .list-group-item img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+/* Barra de Pesquisa */
+.search-bar .form-control {
+    border-radius: 50px;
+    
+    padding: 0.75rem 1.5rem;
+    border: 1px solid #e0e0e0;
+    box-shadow: none;
+
+}
+
+.search-bar .btn {
+    
+    background-color: #333;
+    color: white;
+    border-radius: 50%;
+    border: 0px solid #e0e0e0;
+    width: 50px;
+    height: 60px;
+    position: relative;
+    right: 0px;
+    
+    
+}
+.search-bar .form-control:focus {
+    border-color: #aaa;
+}
+
+/* Cards de Receita */
+.recipe-card {
+    border-radius: 15px;
+    border: none;
+    overflow: hidden; /* Garante que a imagem não vaze das bordas arredondadas */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease-in-out;
+}
+
+.recipe-card:hover {
+    transform: translateY(-5px);
+}
+
+.recipe-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.recipe-card .card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+
+/* Rodapé */
+.footer-social-icons .bi {
+    font-size: 1.5rem;
+    margin-right: 15px;
+    color: #555;
+}
+
+/* ... seu css anterior ... */
+
+li {
+    cursor: pointer;
+}

@@ -1,0 +1,45 @@
+
+  <body>
+    <div class="modal fade" id="modalReceita" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered"> <div class="modal-content">
+      
+     <div class="modal-header border-0">
+      <button id="btn-favoritar" type="button" class="btn btn-light me-2 rounded-circle shadow-sm">
+      <i id="icon-favorito" class="bi bi-heart"></i>
+      </button>
+
+  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+
+      <div class="modal-body pt-0">
+        
+        <img id="modal-img" src="" class="w-100 rounded mb-4" style="height: 300px; object-fit: cover;" alt="">
+
+        <h2 id="modal-titulo" class="font-cursive text-center mb-4">Nome da Receita</h2>
+
+        <div class="row">
+            <div class="col-md-5 border-end">
+                <h5 class="fw-bold mb-3"><i class="bi bi-basket"></i> Ingredientes</h5>
+                <ul id="modal-ingredientes" class="list-group list-group-flush small">
+                    </ul>
+            </div>
+
+            <div class="col-md-7">
+                <h5 class="fw-bold mb-3"><i class="bi bi-fire"></i> Modo de Preparo</h5>
+                <p id="modal-preparo" class="text-muted" style="white-space: pre-line;">
+                    </p>
+            </div>
+        </div>
+      </div>
+
+      <div class="modal-footer border-0 justify-content-center">
+        <button type="button" class="btn btn-dark px-4" data-bs-dismiss="modal">Fechar</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  
+  </body>
+  
