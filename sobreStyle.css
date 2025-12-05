@@ -1,0 +1,40 @@
+body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #fcfcfc;
+            padding-top: 100px; 
+        }
+
+        .navbar-brand {
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.2rem;
+            font-weight: 700;
+        }
+
+        .section-title {
+            font-size: 2.3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .sobre-texto {
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        .sobre-card {
+            border-radius: 20px;
+            padding: 30px;
+            background: white;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+        }
+
+        .icon-feature {
+            font-size: 3rem;
+            color: #d63384;
+        }
+
+        .footer-social-icons .bi {
+            font-size: 1.5rem;
+            margin-right: 15px;
+            color: #555;
+        }

@@ -1,4 +1,4 @@
-const API_URL = 'https://api-receitas-pi.vercel.app/receitas/todas?page=1&limit=10';
+const API_URL = 'https://api-receitas-pi.vercel.app/receitas/todas?page=1&limit=40';
 let listaReceitasGlobal = []; // Guarda TODOS os dados da API
 
 // --- 1. Carregamento Inicial ---
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 async function carregarModal() {
     try {
-        const response = await fetch('modal.html');
+        const response = await fetch('DetalhesModal.html');
         const html = await response.text();
         document.getElementById('container-modal').innerHTML = html;
         
@@ -155,6 +155,7 @@ function atualizarIconeModal(id) {
     } else {
         icon.classList.add('bi-heart');
         icon.classList.remove('bi-heart-fill', 'favoritado');
+        
     }
 }
 

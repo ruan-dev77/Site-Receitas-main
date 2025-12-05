@@ -1,11 +1,9 @@
-/* CSS PARA A PÁGINA DE RECEITAS (Bucho) */
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #fcfcfc; /* Fundo levemente cinza, como na imagem */
+    background-color: #fcfcfc;
 }
 
-/* Fonte especial para o logo */
 .font-cursive {
     font-family: 'Dancing Script', cursive;
     font-size: 2.2rem;
@@ -20,7 +18,6 @@ body {
     justify-content: center;
 }
 
-/* Estilo da Navbar */
 .navbar-brand {
     font-family: 'Dancing Script', cursive;
     font-size: 2.2rem;
@@ -30,9 +27,6 @@ body {
 
 
 
-/* --- Conteúdo Principal --- */
-
-/* Sidebar (Categorias) */
 .category-list .list-group-item {
     border: none;
     padding: 0.75rem 0;
@@ -76,11 +70,10 @@ body {
     border-color: #aaa;
 }
 
-/* Cards de Receita */
 .recipe-card {
     border-radius: 15px;
     border: none;
-    overflow: hidden; /* Garante que a imagem não vaze das bordas arredondadas */
+    overflow: hidden;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     transition: transform 0.2s ease-in-out;
 }
@@ -101,14 +94,13 @@ body {
     font-weight: 600;
 }
 
-/* Rodapé */
+
 .footer-social-icons .bi {
     font-size: 1.5rem;
     margin-right: 15px;
     color: #555;
 }
 
-/* ... seu css anterior ... */
 
 li {
     cursor: pointer;

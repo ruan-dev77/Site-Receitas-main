@@ -1,34 +1,31 @@
-/* Aplicando fontes do design */
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* Fonte especial para o logo e "Chef" */
+
 .font-cursive {
     font-family: 'Dancing Script', cursive;
 }
 
 
-
-/* Estilo da Navbar */
 .navbar-brand {
     font-family: 'Dancing Script', cursive;
     font-size: 2.2rem;
     font-weight: 700;
 }
 
-/* --- Seção Hero (Principal) --- */
 #hero {
-    height: 100vh; /* Ocupa a altura total da tela */
-    background-image: url('/imagens/img-fundo-menu.jpg'); /* Imagem de fundo do hero */
+    height: 100vh;
+    background-image: url('/imagens/img-fundo-menu.jpg'); 
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #020202; /* Cor do texto do hero */
-    padding-top: 70px; /* Impede que o conteúdo fique atrás da navbar fixa */
+    color: #020202;
+    padding-top: 70px; 
 }
 
 #hero h1 {
@@ -39,16 +36,16 @@ body {
 #hero h1 .chef-text {
     font-family: 'Dancing Script', cursive;
     font-size: 4.5rem;
-    color: #d9534f; /* Cor vermelha/laranja (aproximada) */
+    color: #d9534f; 
 }
 
 #hero h1 .voce-text {
     text-decoration: underline;
-    text-decoration-color: #f0ad4e; /* Cor amarela (aproximada) */
+    text-decoration-color: #f0ad4e;
     text-decoration-thickness: 3px;
 }
 
-/* --- Outras Seções --- */
+
 .full-width-img {
     width: 100%;
     height: auto;
@@ -58,7 +55,7 @@ body {
     padding: 60px 0;
 }
 
-/* Tamanho da fonte que estava inline no H2 */
+
 .content-section .font-cursive {
     font-size: 2.5rem;
 }
